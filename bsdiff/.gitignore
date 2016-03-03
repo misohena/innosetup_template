@@ -1,0 +1,13 @@
+bsdiff.opensdf
+bsdiff.sdf
+bsdiff/Debug
+bsdiff/Release
+bspatch/Debug
+bspatch/Release
+bspatch-dll/Debug
+bspatch-dll/Release
+Debug
+Release/*.lib
+Release/*.exp
+.vs
+*.user

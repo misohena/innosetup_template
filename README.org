@@ -1,0 +1,37 @@
+* Inno Setup Template
+
+Install Types:
+
+- install_disc : Install From CD-ROM,DVD-ROM
+- install_exe : Single Exe File Installer
+- patch_exe : Single Exe File Updater
+- patch_exe_bsdiff : Single Exe File Updater (Use bsdiff/bspatch binary diff algorithm)
+
+Resource Files:
+
+- setup_resources\Setup.ico
+- setup_resources\SetupWizImage.bmp
+- setup_resources\SetupWizSmallImage.bmp
+
+Example Application Files:
+
+- src_app
+  - example.exe
+  - example.dat
+  - README.txt
+
+- src_app_v2 : Files which have been changed
+  - example.exe
+  - example.dat
+
+bsdiff/bspatch/bzip2 source code(Visual Studio 2015 Solution/Project Files):
+
+- bsdiff
+  - Release
+    - bsdiff.exe
+    - bspatch.exe
+    - bspatch.dll
+  - bsdiff
+  - bspatch
+  - bspatch-dll
+  - bzip2
